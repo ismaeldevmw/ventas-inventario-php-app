@@ -1,0 +1,9 @@
+<?php 
+if(!defined("DATABASE_HOST")){
+define("DATABASE_DRIVER","mysql");//oci8
+define("DATABASE_HOST","127.0.0.1");
+define("DATABASE_USER","root");
+define("DATABASE_PASSWD","");
+define("DATABASE_NAME","tienda24");
+}
+?>
