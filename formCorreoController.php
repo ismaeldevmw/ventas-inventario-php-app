@@ -27,13 +27,13 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'ssl';
 $mail->Host ="smtp.gmail.com";
 $mail->Port = 465;
-$mail->Username = 'dragonazulcrema@gmail.com';
-$mail->Password = 'shutdown-s-t00';
+$mail->Username = 'miemail@mail.com';
+$mail->Password = 'mipassword';
 
 
 
 //datos personales quien es el que lo envia
-$mail->From = "dragonazulcrema@gmail.com";
+$mail->From = "emailremitente@mail.com";
 $mail->FromName = 'Tienda 24';
 
 //para quien es el email
